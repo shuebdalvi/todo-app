@@ -1,3 +1,11 @@
+# ESLint is a tool for identifying and reporting on patterns found in ECMAScript/JavaScript code,
+# with the goal of making code more consistent and avoiding bugs.
+
+# You can tell ESLint to ignore specific files and directories
+# by creating an .eslintignore file in your project’s root directory.
+# The .eslintignore file is a plain text file
+# where each line is a glob pattern indicating
+# which paths should be omitted from linting.
 node_modules/
 src/main/docker/
 jest.conf.js

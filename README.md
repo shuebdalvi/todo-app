@@ -1,4 +1,4 @@
-# todoapp
+# TodoApp
 
 This application was generated using JHipster 7.9.2, you can find documentation and help at [https://www.jhipster.tech/documentation-archive/v7.9.2](https://www.jhipster.tech/documentation-archive/v7.9.2).
 
@@ -8,7 +8,13 @@ Node is required for generation and recommended for development. `package.json` 
 
 In the project root, JHipster generates configuration files for tools like git, prettier, eslint, husky, and others that are well known and you can find references in the web.
 
-`/src/*` structure follows default Java structure.
+- `/src/*` structure follows default Java structure.
+
+- `.browserslistrc` This file is used by the build system to adjust CSS and JS output to support the specific browsers.
+
+- `.gitignore` - Git uses it to ignore files & folder patterns
+  from commiting to source repository
+- `.gitattributes` - A gitattributes file is a simple text file that gives attributes to pathnames like `text`,`eol`,etc
 
 - `.yo-rc.json` - Yeoman configuration file
   JHipster configuration is stored in this file at `generator-jhipster` key. You may find `generator-jhipster-*` for specific blueprints configuration.
